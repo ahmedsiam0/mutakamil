@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MyFrameWork</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../style/style.css">
+        <link rel="stylesheet" href="../../../style/fontawesome.all.min.css">
+    </head>
+    <body>
+        <div class="headerPane">
+            <div class="headercontent">
+                <div class="mobileheader">
+                    <div class="MainMenu"><i class="MenuIMG fa fa-bars"></i></div>
+                    <div class="Home"><a href="../../../index.html"><i class="homeIMG fa fa-home"></i></a></div>
+                </div>
+                <div class="header">
+                    <a href="../../../index.html" class="headerLink">الرئيسية</a>
+                    <div class="MenuItem MenuToggle1">
+                    <span class="MenuToggle">دورات تعليمية</span>
+                    <div class="Menu Menu1">
+                        <a href="../index.html" class="MenuLink">بناء المواقع</a>
+                        <a class="MenuLink">تركيب الحواسيب</a>
+                        <a class="MenuLink">البرمجة</a>
+                        <a class="MenuLink">التهكير</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle2">
+                    <span class="MenuToggle">مقالات</span>
+                    <div class="Menu Menu2">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">التعامل مع النصوص</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle3">
+                    <span class="MenuToggle">أدوات</span>
+                    <div class="Menu Menu3">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">النصوص</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        <h1 class="Title">الروابط</h1>
+        <h2 class="TitleArtical">ما هي الروابط</h2>
+        <p class="Artical">الروابط هي من أكثر الأشياء إستخداما في صفحات الويب وهي عبارة عن محتويات تنقلك عند الضغط عليها إلي صفحة ويب أخري</p>
+        <h2 class="TitleArtical">إضافة الروابط</h2>
+        <p class="Artical">يتم إضافة الروابط عن طريق الوسم a وهو وسم لديه خاصية تدعي href وتضع لها كقيمة مسار الرابط وهناك طرق متعددة لوضع المسارات والذي سنتعلمه في هذا الدرس هو وضع المسارات عموما والوسم لديه أيضا خاصية تدعي target وهي تستخدم لإخبار المتصفح عن طريقة فتح الرابط وتضع لها القيمة blank_ في حالة أردت من المتصفح فتح الرابط في لسان جديد</p>
+        <h2 class="TitleArtical">المسار</h2>
+        <p class="Artical">المسار هو عبارة عن نص يحدد موقع ملف معين وهذا الملف يمكن أن يكون علي جهاز أو علي الإنترنت وتستخدم المسارات كثيرا فعندما تتفقد ملفاتك التي علي حاسوبك فإن نظام التشغيل الذي علي الحاسوب يستخدم المسارات لتحديد مواقع مجلداتك وملفاتك التي في ذاكرة الجهاز وهذا مثال علي مسار ملف موجود في جهاز معين</p>
+        <div class="InlineCode">D://Project/index.html</div>
+        <p class="Artical">كما تري هذا مسار يحدد موقع صفحة ويب موجودة في القرص D في المجلد Project والمسارات أيضا تستخدمها متصفحات الويب لتحديد مواقع صفحات الويب التي ستشغلها ونحن سنتعلم كيفية إعطاء المتصفح مسار صفحة الويب التي نريده أن ينتقل لها</p>
+        <h2 class="TitleArtical">تحديد مسار صفحة</h2>
+        <p class="Artical">هناك طريقتان لتحديد مسار صفحة ويب الأولي هي كتابة مسار الصفحة كاملا كهذا المسار</p>
+        <div class="InlineCode">D:\MyFile\Project\index.html</div>
+        <p class="Artical">والثانية هي تحديد مسار الصفحة بالنسبة للصفحة التي بداخلها الرابط ولتفهم ذلك أنظر لهذه القائمة وهي تعبر عن مجلد و محتوياته</p>
+        <ul class="Path-List">
+            <li class="Path-List-Folder"><i class="Path-List-image fa fa-folder-open"></i>Project</li>
+            <ul>
+                <li class="Path-List-Folder"><i class="Path-List-image fa fa-folder-open"></i>Main</li>
+                <ul>
+                    <li class="Path-List-File"><i class="Path-List-image fa fa-file-code"></i>Main.html</li>
+                    <li class="Path-List-File"><i class="Path-List-image fa fa-file-code"></i>Login.html</li>
+                    <li class="Path-List-Folder"><i class="Path-List-image fa fa-folder-open"></i>Setting</li>
+                    <ul>
+                        <li class="Path-List-File"><i class="Path-List-image fa fa-file-code"></i>Setting.html</li>
+                    </ul>
+                </ul>
+                <li class="Path-List-Folder"><i class="Path-List-image fa fa-folder-open"></i>About</li>
+                <ul>
+                    <li class="Path-List-File"><i class="Path-List-image fa fa-file-code"></i>About.html</li>
+                </ul>
+            </ul>
+        </ul>
+        <p class="Artical">كما تلاحظ المجلد الرئيسي يسمي Project وهو مجلد يحتوي علي مجلدان آخران هما Main و About وبداخل المجلد Main يوجد ملفان ومجلد الملفان يسميان Login و Main وهما عبارة عن صفحتي ويب أما المجلد فيسمي Setting وبداخله ملف صفحة ويب تسمي Setting وأما المجلد About فبداخله ملف صفحة ويب تدعي About أما الآن بعد تعرفك علي ملفات و مجلدات الموقع سنقوم بكتابة مسارات للصفحات Main و Setting و About بالنسبة للصفحة Login أولا مسار الصفحة Main وهو أبسط مسار لأن هذه الصفحة بجانب الصفحة Login لذلك يكفي أن تكتب إسم الصفحة وإمتدادها هكذا</p>
+        <div class="InlineCode">Main.html</div>
+        <p class="Artical">هذا المسار إن وضعته في رابط داخل الصفحة Login وضغطت علي الرابط داخل متصفح سينقلك المتصفح إلي الصفحة Main أما الآن لننتقل للصفحة Setting وهي تختلف عن الصفحة Main في أنها داخل مجلد لذلك لتكتب مسارها تكتب إسم المجلد ثم علامة الخط المائل / ثم إسم الملف إمتداده هكذا</p>
+        <div class="InlineCode">Setting/Setting.html</div>
+        <p class="Artical">هذا المسار إن وضعته داخل رابط في الصفحة Login وضغطت علي الرابط داخل متصفح سينقلك المتصفح إلي الصفحة Setting لننتقل للصفحة About وهي تختلف عن الآخرين أنها بداخل مجلد وهذا المجلد خارج المجلد الذي توجد فيه الصفحة Main لذلك إذا أردت أن تكتب المسار سيتعين عليك أولا كتابة نقطتين .. وهما يخبران المتصفح أن الصفحة خارج هذا المجلد وبعدها الخط المائل ثم كما في الصفحة السابق تكتب إسم المجلد وبعدها إسم الصفحة ويكون المسار هكذا</p>
+        <div class="InlineCode">../About/About.html</div>
+        <p class="Artical">وكما تري في الثلاثة مسارات ستلاحظ أنها صغيرة لذلك ينصح بكتابة المسارات بهذه الطريقة ولكن هذه المسارات تعتبر محلية أي أنها بداخل موقعك أما إن أردت كتابة مسار موقع آخر كجوجل فإنك تأخذ المسار من المتصفح ثم تضعه في الرابط الذي تريد</p>
+            <div class="example">
+                <h3 class="example-title">إضافة الروابط</h3>
+                <span class="example-text">هذا هو مثال علي كيفية إضافة الروابط</span>
+                <div class="example-code">
+                    <ol class="SlideCodeContent SlideContent1 EN">
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;<span class="Black">Website</span>&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;a</span><span class="Green"> href</span><span class="Black">=</span><span class="Orange">"https://www.google.com"</span><span class="Green"> target</span><span class="Black">=</span><span class="Orange">"_blank"</span><span class="Blue code">&gt;</span><span class="Black">Google</span><span class="Blue">&lt;/a&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;a</span><span class="Green"> href</span><span class="Black">=</span><span class="Orange">"https://www.facebook.com"</span><span class="Green"> target</span><span class="Black">=</span><span class="Orange">"_blank"</span><span class="Blue code">&gt;</span><span class="Black">FaceBook</span><span class="Blue">&lt;/a&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;a</span><span class="Green"> href</span><span class="Black">=</span><span class="Orange">"https://www.youtube.com"</span><span class="Green"> target</span><span class="Black">=</span><span class="Orange">"_blank"</span><span class="Blue code">&gt;</span><span class="Black">Youtupe</span><span class="Blue">&lt;/a&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <a href="https://www.google.com" target="_blank">Google</a>
+                    <a href="https://www.facebook.com" target="_blank">FaceBook</a>
+                    <a href="https://www.youtube.com" target="_blank">Youtupe</a>
+                </div>
+            </div>
+        <p class="Artical">كما تري إذا ضغطت علي الروابط ستنقلك إلي المواقع ولأننا قمنا بكتابة الخاصية target وأعطيناها القيمة blank_ سوف يدخلك المتصفح في لسان جديد جرب المثال السابق ثانية لكن هذه المرة أزل الخاصية target ستلاحظ أن المتصفح إستخدم نفس اللسان</p>
+        </div>
+            <div class="LessonMenuContent">
+                <span class="LessonTitle">HTML</span>
+                <a href="lesson-1.html" class="LessonMenuLink">مقدمة تعريفية</a>
+                <a href="lesson-2.html" class="LessonMenuLink">الأساسيات</a>
+                <a href="lesson-3.html" class="LessonMenuLink">النصوص</a>
+                <a href="lesson-4.html" class="LessonMenuLink">الرموز</a>
+                <a href="lesson-5.html" class="LessonMenuLink">الروابط</a>
+                <a href="lesson-6.html" class="LessonMenuLink">الصور</a>
+                <a href="lesson-7.html" class="LessonMenuLink">القوائم</a>
+                <a href="lesson-8.html" class="LessonMenuLink">الجداول</a>
+                <a href="lesson-9.html" class="LessonMenuLink">النماذج</a>
+                <a href="lesson-10.html" class="LessonMenuLink">وسوم التوصيف</a>
+                <a href="lesson-11.html" class="LessonMenuLink">الإطارات</a>
+                <a href="lesson-12.html" class="LessonMenuLink">وسوم أخري</a>
+                <a href="lesson-13.html" class="LessonMenuLink">تقسيم الصفحة</a>
+                <a href="lesson-14.html" class="LessonMenuLink">مشاريع</a>
+            </div>
+        <div class="footer">
+            <span class="copyright">مبرمج الموقع: أحمد صيام&copy;2018</span>
+        </div>
+        <i class="LessonMenu-button fa fa-chevron-left"></i>
+        <i class="top-button fa fa-chevron-up"></i>
+        <script src="../../../script/jquery.min.js"></script>
+        <script src="../../../script/script.js"></script>
+    </body>
+</html>

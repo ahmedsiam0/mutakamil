@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MyFrameWork</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../style/style.css">
+        <link rel="stylesheet" href="../../../style/fontawesome.all.min.css">
+    </head>
+    <body>
+        <div class="headerPane">
+            <div class="headercontent">
+                <div class="mobileheader">
+                    <div class="MainMenu"><i class="MenuIMG fa fa-bars"></i></div>
+                    <div class="Home"><a href="../../../index.html"><i class="homeIMG fa fa-home"></i></a></div>
+                </div>
+                <div class="header">
+                    <a href="../../../index.html" class="headerLink">الرئيسية</a>
+                    <div class="MenuItem MenuToggle1">
+                    <span class="MenuToggle">دورات تعليمية</span>
+                    <div class="Menu Menu1">
+                        <a href="../index.html" class="MenuLink">بناء المواقع</a>
+                        <a class="MenuLink">تركيب الحواسيب</a>
+                        <a class="MenuLink">البرمجة</a>
+                        <a class="MenuLink">التهكير</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle2">
+                    <span class="MenuToggle">مقالات</span>
+                    <div class="Menu Menu2">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">التعامل مع النصوص</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle3">
+                    <span class="MenuToggle">أدوات</span>
+                    <div class="Menu Menu3">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">النصوص</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="Title">الجداول</h1>
+            <h2 class="TitleArtical">التعامل مع الجداول</h2>
+            <p class="Artical">هناك وسوم صممت خصيصا للتعامل مع الجداول والجداول من العناصر المهمة في لغة HTML فهي تسهل عليك تنظيم وترتيب موقعك</p>
+            <h2 class="TitleArtical">الوسم table</h2>
+            <p class="Artical">هو وسم يستخدم لإضافة جدول للموقع وله ست خواص وهذا جدول يوضح هذه الخواص</p>
+            <table class="table">
+                <tr>
+                    <th>الخاصية</th>
+                    <th>التعريف</th>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">align</td>
+                    <td>خاصية تحدد إتجاه الجدول وتأخذ القيم left لجعل الجدول يتجه يسارا وهي القيمة الإفتراضية و right لجعل الجدول يتجه يمينا و center لجعل الجدول في المنتصف</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">width</td>
+                    <td>خاصية تحدد عرض الجدول وتأخذ القيمة عددا يعبر عن العرض بوحدة البيكسل</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">bgcolor</td>
+                    <td>خاصية لتحديد لون خلفية الجدول وتأخذ القيمة عبارة عن لون</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">background</td>
+                    <td>خاصية تستخدم لوضع صورة كخلفية للجدول وتأخذ قيمة عبارة عن مسار الصورة</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">cellspacing</td>
+                    <td>خاصية تستخدم لوضع مسافات بين خلايا الجدول وتأخذ قيمة عبارة عن عدد يعبر عن عرض المسافات</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">cellpadding</td>
+                    <td>خاصية تستخدم لوضع هوامش داخلية لخلايا الجدول وتأخذ قيمة عبارة عن عدد يعبر عن عرض الهوامش</td>
+                </tr>
+            </table>
+            <h2 class="TitleArtical">الوسم tr</h2>
+            <p class="Artical">هو وسم يستخدم لإضافة صف في الجدول ويكتب بداخل الوسم table وله أربع خواص وهي بهذا الجدول</p>
+            <table class="table">
+                <tr>
+                    <th>الخاصية</th>
+                    <th>التعريف</th>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">align</td>
+                    <td>لتحديد إتجاه نص خلايا الصف وتأخذ القيم left لجعل النص يتجه يسارا وهي القيمة الإفتراضية و right لجعل النص يتجه يمينا و center لجعل النص في المنتصف</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">bgcolor</td>
+                    <td>خاصية لتحديد لون خلفية الصف وتأخذ القيمة عبارة عن لون</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">background</td>
+                    <td>خاصية تستخدم لوضع صورة كخلفية للصف وتأخذ قيمة عبارة عن مسار الصورة</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">valign</td>
+                    <td>خاصية تستخدم لتحديد إتجاه نص خلايا الصف رأسيا وتأخذ القيم top وهي القيمة الإفتراضية وتجعل في أعلي الخلية middle لتجعل النص منتصف الخلية bottom لتجعل النص أسفل الخلية</td>
+                </tr>
+            </table>
+            <h2 class="TitleArtical">الوسم td</h2>
+            <p class="Artical">وهو وسم يستخدم لإضافة خلية في صف الجدول ويكتب بداخل الوسم tr</p>
+            <table class="table">
+                <tr>
+                    <th>الخاصية</th>
+                    <th>التعريف</th>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">align</td>
+                    <td>لتحديد إتجاه نص الخلية وتأخذ القيم left لجعل النص يتجه يسارا وهي القيمة الإفتراضية و right لجعل النص يتجه يمينا و center لجعل النص في المنتصف</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">bgcolor</td>
+                    <td>خاصية لتحديد لون خلفية الخلية وتأخذ القيمة عبارة عن لون</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">background</td>
+                    <td>خاصية تستخدم لوضع صورة كخلفية للخلية وتأخذ قيمة عبارة عن مسار الصورة</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">valign</td>
+                    <td>خاصية تستخدم لتحديد إتجاه نص الخلية رأسيا وتأخذ القيم top وهي القيمة الإفتراضية وتجعل في أعلي الخلية middle لتجعل النص منتصف الخلية bottom لتجعل النص أسفل الخلية</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">colspan</td>
+                    <td>خاصية تستخدم لدمج أكثر من خلية في الصف الواحد</td>
+                </tr>
+                <tr>
+                    <td class="EN Wasm">rowspan</td>
+                    <td>خاصية تستخدم لدمج أكثر من صف في الجدول</td>
+                </tr>
+            </table>
+            <h2 class="TitleArtical">الوسم th</h2>
+            <p class="Artical">وهو وسم يستخدم لإضافة خلية خاصة بعناوين أعمدة الجدول وله نفس خواص الوسم td ويكتب بداخل الوسم tr</p>
+            <h2 class="TitleArtical">الوسم caption</h2>
+            <p class="Artical">هو وسم يستخدم لإضافة عنوان للجدول ويوضع داخل الوسم table</p>
+            <div class="example">
+                <h3 class="example-title">إضافة الجداول</h3>
+                <span class="example-text">هذا هو مثال علي كيفية إضافة الجداول</span>
+                <div class="example-code">
+                    <ol>
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;<span class="Black">Website</span>&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;table</span><span class="Green"> border</span><span class="Black">=</span><span class="Orange">"2px"</span><span class="Green"> align</span><span class="Black">=</span><span class="Orange">"center"</span><span class="Green"> width</span><span class="Black">=</span><span class="Orange">"500px"</span><span class="Green"> cellspacing</span><span class="Black">=</span><span class="Orange">"0px"</span><span class="Green"> cellpadding</span><span class="Black">=</span><span class="Orange">"20px"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;caption&gt;</span><span class="Black">Students</span><span class="Blue">&lt;/caption&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;tr</span><span class="Green"> bgcolor</span><span class="Black">=</span><span class="Orange">"darkgrey"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;th&gt;</span><span class="Black">Id</span><span class="Blue">&lt;/th&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;th&gt;</span><span class="Black">Name</span><span class="Blue">&lt;/th&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;th&gt;</span><span class="Black">Age</span><span class="Blue">&lt;/th&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;/tr&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;tr</span><span class="Green"> bgcolor</span><span class="Black">=</span><span class="Orange">"lightcyan"</span><span class="Green"> align</span><span class="Black">=</span><span class="Orange">"center"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">1</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">Ahmed</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">8</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;/tr&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;tr</span><span class="Green"> bgcolor</span><span class="Black">=</span><span class="Orange">"lightblue"</span><span class="Green"> align</span><span class="Black">=</span><span class="Orange">"center"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">2</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">Amgad</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">6</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;/tr&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;tr</span><span class="Green"> bgcolor</span><span class="Black">=</span><span class="Orange">"lightcyan"</span><span class="Green"> align</span><span class="Black">=</span><span class="Orange">"center"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">3</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">Salem</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;td&gt;</span><span class="Black">10</span><span class="Blue">&lt;/td&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;/tr&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;/table&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <table border="2px" align="center" width="500px" cellspacing="0px" cellpadding="20px">
+                        <caption>Students</caption>
+                        <tr bgcolor="darkgrey">
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr bgcolor="lightcyan" align="center">
+                            <td>1</td>
+                            <td>Ahmed</td>
+                            <td>8</td>
+                        </tr>
+                        <tr bgcolor="lightblue" align="center">
+                            <td>2</td>
+                            <td>Amgad</td>
+                            <td>6</td>
+                        </tr>
+                        <tr bgcolor="lightcyan" align="center">
+                            <td>3</td>
+                            <td>Salem</td>
+                            <td>10</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <p class="Artical">ستلاحظ في المثال أن الوسم th جعل نصه في المنتصف بدون وضع الخاصية align في وسم tr الذي يحتويه لأن الخاصية align الخاصة به قيمتها الإفتراضية هي center لذا لاحاجة لتعريف الخاصية align إذا أردت النص بالمنتصف ونفس الأمر في الخاصية valign قيمة الخاصية الإفتراضية عنده هي middle لذا لا حاجة لتعريفها إذا أردت هذه القيمة</p>
+        </div>
+        <div class="footer">
+            <span class="copyright">مبرمج الموقع: أحمد صيام&copy;2018</span>
+        </div>
+            <div class="LessonMenuContent">
+                <span class="LessonTitle">HTML</span>
+                <a href="lesson-1.html" class="LessonMenuLink">مقدمة تعريفية</a>
+                <a href="lesson-2.html" class="LessonMenuLink">الأساسيات</a>
+                <a href="lesson-3.html" class="LessonMenuLink">النصوص</a>
+                <a href="lesson-4.html" class="LessonMenuLink">الرموز</a>
+                <a href="lesson-5.html" class="LessonMenuLink">الروابط</a>
+                <a href="lesson-6.html" class="LessonMenuLink">الصور</a>
+                <a href="lesson-7.html" class="LessonMenuLink">القوائم</a>
+                <a href="lesson-8.html" class="LessonMenuLink">الجداول</a>
+                <a href="lesson-9.html" class="LessonMenuLink">النماذج</a>
+                <a href="lesson-10.html" class="LessonMenuLink">وسوم التوصيف</a>
+                <a href="lesson-11.html" class="LessonMenuLink">الإطارات</a>
+                <a href="lesson-12.html" class="LessonMenuLink">وسوم أخري</a>
+                <a href="lesson-13.html" class="LessonMenuLink">تقسيم الصفحة</a>
+                <a href="lesson-14.html" class="LessonMenuLink">مشاريع</a>
+            </div>
+        <i class="LessonMenu-button fa fa-chevron-left"></i>
+        <i class="top-button fa fa-chevron-up"></i>
+        <script src="../../../script/jquery.min.js"></script>
+        <script src="../../../script/script.js"></script>
+    </body>
+</html>

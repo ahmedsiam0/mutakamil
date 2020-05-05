@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MyFrameWork</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../style/style.css">
+        <link rel="stylesheet" href="../../../style/fontawesome.all.min.css">
+    </head>
+    <body>
+        <div class="headerPane">
+            <div class="headercontent">
+                <div class="mobileheader">
+                    <div class="MainMenu"><i class="MenuIMG fa fa-bars"></i></div>
+                    <div class="Home"><a href="../../../index.html"><i class="homeIMG fa fa-home"></i></a></div>
+                </div>
+                <div class="header">
+                    <a href="../../../index.html" class="headerLink">الرئيسية</a>
+                    <div class="MenuItem MenuToggle1">
+                    <span class="MenuToggle">دورات تعليمية</span>
+                    <div class="Menu Menu1">
+                        <a href="../index.html" class="MenuLink">بناء المواقع</a>
+                        <a class="MenuLink">تركيب الحواسيب</a>
+                        <a class="MenuLink">البرمجة</a>
+                        <a class="MenuLink">التهكير</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle2">
+                    <span class="MenuToggle">مقالات</span>
+                    <div class="Menu Menu2">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">التعامل مع النصوص</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle3">
+                    <span class="MenuToggle">أدوات</span>
+                    <div class="Menu Menu3">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">النصوص</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        <h1 class="Title">الأساسيات</h1>
+        <h2 class="TitleArtical">كيفية كتابة أكواد HTML</h2>
+        <p class="Artical">تكتب أكواد HTML علي شكل وسوم (Tags) وهي توضع بين علامتي أكبر من وأصغر من &lt;&gt; وفي معظم الأحيان يكون هناك زوجان من الوسوم منهم وسم بدايه ومنهم وسم نهاية ويكتب هكذا &lt;/وسم النهاية&gt;&lt;وسم البداية&gt; ولكن يوجد وسوم تتكون من زوج واحد مثل (&lt;/br&gt;)</p>
+        <h2 class="TitleArtical">ما هي الوسوم</h2>
+        <p class="Artical">الوسوم هي عبارة عن تعليمات تستخدمها لتعلم المتصفح عن محتويات صفحة الويب ويوجد لكل وسم خصائص معينة تميزه عن باقي الوسوم وهناك وسوم تمكنك من تعديل الخصائص التي فيها وهذه الخصائص يمكن أن تكون أحجام أو ألوان أو هوامش وعادة عند تعديل تكتب الخاصية و قيمتها بداخل وسم البداية مثل هذا</p>
+        <div class="InlineCode">
+            <span class="Blue">&lt;h1 </span><span class="Green">dir</span><span class="Black">=</span><span class="Orange">"ltr"</span><span class="Blue">&gt;</span><span class="Black">text</span><span class="Blue">&lt;/h1&gt;</span>
+        </div>
+        <p class="Artical">وهنا الخاصية هي dir وهي خاصية موجودة في كل وسوم اللغة وهي تستخدم للتحكم في إتجاه الكتابة ويمكنك أن تعطيها قيمتان وهما ltr وrtl والقيمة الإفتراضية لهذه الخاصية هي ltr أي من اليسار إلي اليمين وهو إتجاه الكتابة في اللغة الإنجليزية أما إذا كنت تستخدم اللغة العربية فيفضل تغيير قيمة الخاصية إلي rtl أي من اليمين إلي اليسار وكما هو موضح يجب أن تكتب قيمة الخاصية بداخل علامتي التنصيص ""</p>
+        <h2 class="TitleArtical">الوسوم الأساسية</h2>
+        <p class="Artical">وهي الوسوم التي عادة تضعها في كل صفحة ويب تقوم بتصميمها وقد عرضناهم من قبل في الدرس السابق:</p>
+            <div class="example">
+                <h3 class="example-title">صفحة مكتوبة بلغة HTML</h3>
+                <span class="example-text">هذا هو مثال الدرس السابق</span>
+                <div class="example-code">
+                    <ol>
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;</span><span class="Black">Website</span><span class="Blue">&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;h1&gt;</span><span class="Black">This is Website Content</span><span class="Blue">&lt;/h1&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <h1>This is Website Content</h1>
+                </div>
+            </div>
+        <p class="Artical">وبعد أن رأيت المثال هذا جدول يشرح وظيفة كل وسم وضع في الصفحة</p>
+        <table class="table">
+            <tr>
+                <th>الوسم</th>
+                <th>الوظيفة</th>
+            </tr>
+            <tr>
+                <td class="EN Wasm">&lt;!doctype html&gt;</td>
+                <td>وهو وسم يستخدم لإخبار المتصفح عن نوع وإصدار لغة HTML الذي تستعمله وفي حالة كتبته بهذا الشكل فهذا يعني أنك تستخدم الإصدار الخامس وهو آخر إصدار للغة حتي الآن</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">&lt;html&gt;</td>
+                <td>وهو لإعلام المتصفح عن أين ستكون بداية الصفحه ونهايتها</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">&lt;head&gt;</td>
+                <td>وهو يعتبر رأس الصفحة وفيه تكتب عنوان صفحتك وبيانات وصفية لصفحتك وأيضا لوضع ملفات كتبت بلغات أخري مثل CSS وهي لغة تهتم بالشكل الظاهري للصفحة ويفضل تعلمها بعد تعلمك لهذه اللغة</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">&lt;title&gt;</td>
+                <td>وهو وسم يستخدم لوضع عنوان صفحتك بداخله وهو العنوان الذي سيظهر أعلي المتصفح وهو الذي سيظهر أيضا عندما يبحث أحد عن صفحتك لهذا من المهم أن تضع عنوانا مناسبا لصفحتك</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">&lt;body&gt;</td>
+                <td>وهو يعتبر جسم الصفحة وفيه تضع المحتويات التي ستظهر عند تشغيل الصفحة</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">&lt;h1&gt;</td>
+                <td>هذا الوسم ليس من الوسوم الأساسية وإنما هو وسم يستخدم لوضع العناوين الفرعية للصفحة أو لوضع النصوص للصفحة عامة لكن يفضل إستخدامه في العناوين الفرعية فقط لأنها وظيفيته وهو يظهر النص كبير الحجم كما في المثال</td>
+            </tr>
+        </table> 
+        <h2 class="TitleArtical">أين تكتب أكواد لغة HTML</h2>
+        <p class="Artical">أولا تفتح برنامج NotePad أو أي برنامج معالجة نصوص أو أي برنامج مختص في مجال برمجة الويب مثل Brackets وبعدها تكتب الكود فيه وبعد الإنتهاء تحفظ الملف الذي كتبت فيه الكود بإمتداد html</p>
+        </div>
+        <div class="footer">
+            <span class="copyright">مبرمج الموقع: أحمد صيام&copy;2018</span>
+        </div>
+            <div class="LessonMenuContent">
+                <span class="LessonTitle">HTML</span>
+                <a href="lesson-1.html" class="LessonMenuLink">مقدمة تعريفية</a>
+                <a href="lesson-2.html" class="LessonMenuLink">الأساسيات</a>
+                <a href="lesson-3.html" class="LessonMenuLink">النصوص</a>
+                <a href="lesson-4.html" class="LessonMenuLink">الرموز</a>
+                <a href="lesson-5.html" class="LessonMenuLink">الروابط</a>
+                <a href="lesson-6.html" class="LessonMenuLink">الصور</a>
+                <a href="lesson-7.html" class="LessonMenuLink">القوائم</a>
+                <a href="lesson-8.html" class="LessonMenuLink">الجداول</a>
+                <a href="lesson-9.html" class="LessonMenuLink">النماذج</a>
+                <a href="lesson-10.html" class="LessonMenuLink">وسوم التوصيف</a>
+                <a href="lesson-11.html" class="LessonMenuLink">الإطارات</a>
+                <a href="lesson-12.html" class="LessonMenuLink">وسوم أخري</a>
+                <a href="lesson-13.html" class="LessonMenuLink">تقسيم الصفحة</a>
+                <a href="lesson-14.html" class="LessonMenuLink">مشاريع</a>
+            </div>
+        <i class="LessonMenu-button fa fa-chevron-left"></i>
+        <i class="top-button fa fa-chevron-up"></i>
+        <script src="../../../script/jquery.min.js"></script>
+        <script src="../../../script/script.js"></script>
+    </body>
+</html>

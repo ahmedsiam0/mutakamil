@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MyFrameWork</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../style/style.css">
+        <link rel="stylesheet" href="../../../style/fontawesome.all.min.css">
+    </head>
+    <body>
+        <div class="headerPane">
+            <div class="headercontent">
+                <div class="mobileheader">
+                    <div class="MainMenu"><i class="MenuIMG fa fa-bars"></i></div>
+                    <div class="Home"><a href="../../../index.html"><i class="homeIMG fa fa-home"></i></a></div>
+                </div>
+                <div class="header">
+                    <a href="../../../index.html" class="headerLink">الرئيسية</a>
+                    <div class="MenuItem MenuToggle1">
+                    <span class="MenuToggle">دورات تعليمية</span>
+                    <div class="Menu Menu1">
+                        <a href="../index.html" class="MenuLink">بناء المواقع</a>
+                        <a class="MenuLink">تركيب الحواسيب</a>
+                        <a class="MenuLink">البرمجة</a>
+                        <a class="MenuLink">التهكير</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle2">
+                    <span class="MenuToggle">مقالات</span>
+                    <div class="Menu Menu2">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">التعامل مع النصوص</a>
+                    </div>
+                    </div>
+                    <div class="MenuItem MenuToggle3">
+                    <span class="MenuToggle">أدوات</span>
+                    <div class="Menu Menu3">
+                        <a href="lesson-1.html" class="MenuLink">مقدمة تعريفية</a>
+                        <a href="lesson-2.html" class="MenuLink">الأساسيات</a>
+                        <a href="lesson-3.html" class="MenuLink">النصوص</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        <h1 class="Title">القوائم</h1>
+        <h2 class="TitleArtical">وسوم التعامل مع القوائم</h2>
+        <p class="Artical">هناك وسوم صممت خصيصا للتعامل مع القوائم والقوائم تنقسم لثلاث أنواع قوائم مرتبة وغير مرتبة و قوائم التعريفات</p>
+        <h2 class="TitleArtical">القوائم المرتبة</h2>
+        <p class="Artical">وهي قوائم ترتب بالأرقام أو الحروف الإنجليزية أو الرومانية</p>
+        <h2 class="TitleArtical">الوسم ol</h2>
+        <p class="Artical">وهو وسم يستخدم في عمل القوئم المرتبة ولديه خاصيتان الأولي هي type لتحديد بأي نوع من الحروف أو الأرقام ستستعمل وتأخذ كقيمة أول حرف أو رقم في النوع الذي تريده أي إن أردت الترتيب بأرقام تكتب القيمة 1 وإذا أردت الترتيب بالحروف الإنجليزية تأخذ القيمة a وهكذا أما الخاصية الثانية فهي start أي من أين سيبدأ الترتيب وتعطيه القيمة كعدد أو حرف الذي تريده أن يبدأ الترتيب منه</p>
+        <h2 class="TitleArtical">الوسم li</h2>
+        <p class="Artical">وهو وسم يستخدم لإضافة العناصر للقوائم المرتبة والغير مرتبة</p>
+            <div class="example">
+                <h3 class="example-title">القوائم المرتبة</h3>
+                <span class="example-text">هذا هو مثال علي كيفية إضافة القوائم المرتبة</span>
+                <div class="example-code">
+                    <ol>
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;<span class="Black">Website</span>&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;ol</span><span class="Green"> type</span><span class="Black">=</span><span class="Orange">"1"</span><span class="Green"> start</span><span class="Black">=</span><span class="Orange">"1"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Ahmed</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Khaled</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Salem</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Kareem</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;/ol&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <ol type="1" start="1">
+                        <li>Ahmed</li>
+                        <li>Khaled</li>
+                        <li>Salem</li>
+                        <li>Kareem</li>
+                    </ol>
+                </div>
+            </div>
+        <h2 class="TitleArtical">القوائم غير المرتبة</h2>
+        <p class="Artical">هي قوائم لا ترتب بالحروف أو الأرقام ويوضع مكانهم رموز كالدائرة أو المربع</p>
+        <h2 class="TitleArtical">الوسم ul</h2>
+        <p class="Artical">هو وسم القوائم غير المرتبة وله خاصية واحدة وهي الخاصية type وهي نفس خاصية وسم القوائم المرتبة الفرق في القيم هنا نضع قيمة تعبر عن رمز مثل الدائرة والمربع والوسم ul يستخدم الوسم li لإضافة عناصر القائمة أما عن القيم التي تعبر عن رموز القائمة فهذا جدول بالقيم الممكنة</p>
+        <table class="table">
+            <tr>
+                <th>القيمة</th>
+                <th>الرمز</th>
+            </tr>
+            <tr>
+                <td class="EN Wasm">circle</td>
+                <td>دائرة مفرغة</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">square</td>
+                <td>مربع</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">disc</td>
+                <td>القيمة الإفتراضية وهي عبارة عن دائرة مملوءة</td>
+            </tr>
+            <tr>
+                <td class="EN Wasm">none</td>
+                <td>لا يظهر رمزا</td>
+            </tr>
+        </table>
+            <div class="example">
+                <h3 class="example-title">القوائم غير المرتبة</h3>
+                <span class="example-text">هذا هو مثال علي كيفية إضافة القوائم غير المرتبة</span>
+                <div class="example-code">
+                    <ol>
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;<span class="Black">Website</span>&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;ul</span><span class="Green"> type</span><span class="Black">=</span><span class="Orange">"circle"</span><span class="Blue">&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Ahmed</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Khaled</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Salem</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Kareem</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;/ul&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <ul type="circle">
+                        <li>Ahmed</li>
+                        <li>Khaled</li>
+                        <li>Salem</li>
+                        <li>Kareem</li>
+                    </ul>
+                </div>
+            </div>
+        <h2 class="TitleArtical">قوائم التعريفات</h2>
+        <p class="Artical">هي قوائم يتم فيها كتابة تعريفات وشرحها بحيث أن القوائم تقوم بتنسيق التعريف وشرحه ويمكن وضع تعريف واحد في القائمة أو أكثر</p>
+        <h2 class="TitleArtical">الوسم dl</h2>
+        <p class="Artical">وسم يستخدم في تحديد بداية ونهاية قائمة التعريفات</p>
+        <h2 class="TitleArtical">الوسم dt</h2>
+        <p class="Artical">وسم يستخدم في وضع تعريف في قائمة التعريفات</p>
+        <h2 class="TitleArtical">الوسم dd</h2>
+        <p class="Artical">وسم يستخدم في وضع شرح للتعريف في قائمة التعريفات</p>
+            <div class="example">
+                <h3 class="example-title">قوائم التعريفات</h3>
+                <span class="example-text">هذا هو مثال علي كيفية إضافة قاوائم التعريفات</span>
+                <div class="example-code">
+                    <ol>
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;<span class="Black">Website</span>&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;dl&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;dt&gt;</span><span class="Black">html:</span><span class="Blue">&lt;/dt&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;dd&gt;</span><span class="Black">html is a languege is designed in 1991</span><span class="Blue">&lt;/dd&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;dt&gt;</span><span class="Black">CSS:</span><span class="Blue">&lt;/dt&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;dd&gt;</span><span class="Black">CSS is a languege is designed in 1997</span><span class="Blue">&lt;/dd&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;/dl&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <dl>
+                        <dt>html:</dt>
+                        <dd>html is a languege is designed in 1991</dd>
+                        <dt>CSS:</dt>
+                        <dd>CSS is a languege is designed in 1997</dd>
+                    </dl>
+                </div>
+            </div>
+        <p class="Artical">ستلاحظ في المثال أن التعريف وشرحه تم تنسيقهم</p>
+        <h2 class="TitleArtical">القوائم المتداخلة</h2>
+        <p class="Artical">هي القوائم التي تكتب بداخل بعضها ومهما كان نوعها وهذا مثال يوضح كيفية فعل ذلك</p>
+            <div class="example">
+                <h3 class="example-title">القوائم المتداخلة</h3>
+                <span class="example-text">هذا هو مثال علي كيفية إضافة قوائم متداخلة</span>
+                <div class="example-code">
+                    <ol>
+                        <li><span class="Black">&lt;!doctype html&gt;</span></li>
+                        <li><span class="Blue">&lt;html&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;head&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;title&gt;<span class="Black">Website</span>&lt;/title&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/head&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;body&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;ul&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Web Design</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;ol&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">HTML</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">CSS</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">HTML5</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">CSS3</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;/ol&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;li&gt;</span><span class="Black">Programming</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;ol&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">Java</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">C</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">C++</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block4">&lt;li&gt;</span><span class="Black">Python</span><span class="Blue">&lt;/li&gt;</span></li>
+                        <li><span class="Blue Block3">&lt;/ol&gt;</span></li>
+                        <li><span class="Blue Block2">&lt;/ul&gt;</span></li>
+                        <li><span class="Blue Block1">&lt;/body&gt;</span></li>
+                        <li><span class="Blue">&lt;/html&gt;</span></li>
+                    </ol>
+                </div>
+                <span class="example-text">عندما تفتح الصفحة بالمتصفح سيظهر لك الآتي</span>
+                <div class="example-output">
+                    <ul>
+                        <li>Web Design</li>
+                        <ol>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ol>
+                        <li>Programming</li>
+                        <ol>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ol>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="copyright">مبرمج الموقع: أحمد صيام&copy;2018</span>
+        </div>
+            <div class="LessonMenuContent">
+                <span class="LessonTitle">HTML</span>
+                <a href="lesson-1.html" class="LessonMenuLink">مقدمة تعريفية</a>
+                <a href="lesson-2.html" class="LessonMenuLink">الأساسيات</a>
+                <a href="lesson-3.html" class="LessonMenuLink">النصوص</a>
+                <a href="lesson-4.html" class="LessonMenuLink">الرموز</a>
+                <a href="lesson-5.html" class="LessonMenuLink">الروابط</a>
+                <a href="lesson-6.html" class="LessonMenuLink">الصور</a>
+                <a href="lesson-7.html" class="LessonMenuLink">القوائم</a>
+                <a href="lesson-8.html" class="LessonMenuLink">الجداول</a>
+                <a href="lesson-9.html" class="LessonMenuLink">النماذج</a>
+                <a href="lesson-10.html" class="LessonMenuLink">وسوم التوصيف</a>
+                <a href="lesson-11.html" class="LessonMenuLink">الإطارات</a>
+                <a href="lesson-12.html" class="LessonMenuLink">وسوم أخري</a>
+                <a href="lesson-13.html" class="LessonMenuLink">تقسيم الصفحة</a>
+                <a href="lesson-14.html" class="LessonMenuLink">مشاريع</a>
+            </div>
+        <i class="LessonMenu-button fa fa-chevron-left"></i>
+        <i class="top-button fa fa-chevron-up"></i>
+        <script src="../../../script/jquery.min.js"></script>
+        <script src="../../../script/script.js"></script>
+    </body>
+</html>
