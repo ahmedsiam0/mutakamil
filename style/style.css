@@ -1,0 +1,588 @@
+@font-face{
+    font-family:myfont;
+    src:url(../font/DroidKufi-Regular.ttf);
+}
+html{
+    font-family: myfont,Droid Arabic Kufi,sans-serif,Ariel;
+}
+* {  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}  
+html{
+    direction: rtl;
+    background-color:#303030;
+    color: #999;
+}
+body{
+    margin: 0px;
+    background-color: #303030;
+}
+/************************/
+/*****Home Page code*****/
+/************************/
+.center{
+    text-align: center;
+}
+.FlexBoxPane{
+    display: flex;
+    flex-flow: wrap;
+}
+.FlexBoxPane a{
+    color: #000;
+    text-decoration: none;
+}
+.FlexBox{
+    border: 1px solid #444;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 47%;
+    margin: 10px;
+}
+.FlexBox:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #505050;
+}
+.FlexBoxName{
+    text-align: center;
+    font-size: 40px;
+    background-color: #444;
+    color: #fff;
+}
+.FlexBoxArtical{
+    font-size: 25px;
+    text-align: center;
+    color: #999;
+}
+/**************************/
+/*****Course Page code*****/
+/**************************/
+
+.LinkList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.LinkList a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+.LinkListItem{
+    font-size: 25px;
+    color: #000;
+    padding-top: 50px;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.LinkListItem:hover{
+    background-color: #08f;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #08f;
+}
+/******************************/
+/*******Header Page code*******/
+/******************************/
+.headerPane{
+    background-color: #000;
+    z-index: 1000;
+}
+.headerPane a{
+    text-decoration: none;
+}
+.headercontent{
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerLink{
+    color: #fff;
+    padding: 25px;
+}
+.headerLink:hover{
+    background-color: #555;
+    cursor: pointer;
+}
+.mobileheader{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    min-height: 50px;
+}
+.MainMenu{
+    float: right;
+}
+.MenuIMG{
+    width: 50px;
+    height: 44px;
+    float: right;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 50px;
+}
+.Home{
+    margin-left: 20px;
+    direction: ltr;
+    float: left;
+}
+.homeIMG{
+    width: 50px;
+    height: 44px;
+    float: left;
+    color: #fff;
+    font-size: 50px;
+}
+.MainMenu:hover,.Home:hover{
+    cursor: pointer;
+}
+.MenuToggle{
+    color: #fff;
+    min-height: 100px;
+    padding-top: 20px;
+}
+.Menu{
+    display: none;
+    background-color: #333;
+    font-size: 30px;
+    overflow: auto;
+    min-width: 300px;
+}
+.MenuLink{
+    color: #fff;
+    padding-right: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.MenuLink:hover{
+    cursor: pointer;
+    background-color: #555;
+}
+.MenuItem:hover{
+    background-color: #777;
+    cursor: pointer;
+} 
+/*******************************/
+/*******Content Page code*******/
+/*******************************/
+.content{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1030px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px #000;
+}
+.Title{
+    direction: rtl;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    margin: 0px;
+    color: #e93366;
+}
+.Content{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.TitleArtical{
+    direction: rtl;
+    font-size: 40px;
+    margin: 0px;
+    color: #08f;
+}
+.Artical{
+    direction: rtl;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px;
+}
+/****************************/
+/********Example code********/
+/****************************//*
+.Block1{
+    margin-left: 30px;
+}
+.Block2{
+    margin-left: 60px;
+}
+.Block3{
+    margin-left: 90px;
+}
+.Block4{
+    margin-left: 120px;
+}*/
+.White{color:#fff}
+.Blue{color:#08f}
+.Orange{color:#f87}
+.Green{color: #7e7}
+.Black{color: #fff}
+.example{
+    background: linear-gradient(#444,#222);
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.example-title{
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+.example-code{
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow-x: auto;
+    direction: ltr;
+    font-size: 14px;
+    background-color: #202020;
+    color: #a9a9a9;
+    font-family: monospace;
+}
+.example-code ol{
+    margin: 0px;
+    padding-left: 40px;
+    white-space: nowrap;
+}
+.example-output{
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    direction: ltr;
+    font-family: serif;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.example-text{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+}
+.InlineCode{
+    direction: ltr;
+    font-size: 20px;
+    color: #a9a9a9;
+    padding: 5px;
+    background-color: #2f2f2f;
+}
+/*****************/
+/***Tables code***/
+/*****************/
+.table,.table tr,.table td,.table th{
+    border: 2px solid #999;
+    border-collapse: collapse;
+}
+.table{
+    width:  100%;
+    direction: rtl;
+}
+.table td,.table tr,.table th{
+    padding: 10px;
+    font-size: 20px;
+}
+.EN{
+    direction: ltr;
+}
+.serif{
+    direction: ltr;
+    font-family: serif;
+}
+.Wasm{
+    text-align: center;
+    white-space: nowrap;
+}
+.firstcol{
+    background-color: #d70;
+    color: #fff;
+}
+.sacondcol{
+    background-color: #4d4;
+    color: #fff;
+}
+/******************/
+/*Footer Page code*/
+/******************/
+.footer{
+    background-color: #000;
+    text-align: center;
+    position:static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.copyright{
+    color: #fff;
+    font-size: 35px;
+}
+
+/*****************/
+/*top button code*/
+/*****************/
+
+.top-button{
+    position: fixed;
+    bottom: 0px;
+    right: 50%;
+    margin-right: -50px;
+    background-color: rgba(150,200,0,0.8) /*#9c0*/;
+    width: 100px;
+    height: 40px;
+    display: none;
+    z-index: 9999;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.top-button:hover{
+    cursor: pointer;
+    background: radial-gradient( rgba(150,255,0,0.8) 10%,rgba(150,200,0,0.8) 90%);
+}
+
+/*****************/
+/*LessonMenu code*/
+/*****************/
+.LessonMenu-button{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,150,200,0.8);
+    right: 0px;
+    top:50%;
+    margin-top: -25px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.LessonMenuContent{
+    overflow: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #565656;
+    width: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.LessonMenuContent a{
+    text-decoration: none;
+}
+.LessonTitle{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+.LessonMenuLink{
+    background-color: #000;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 5px 0px 5px;
+    color: #fff;
+    box-shadow: 0px 0px 4px #222;
+}
+.LessonMenu-button:hover{
+    background: radial-gradient( rgba(0,150,255,0.8) 10%,rgba(0,150,200,0.8) 90%);
+    cursor: pointer;
+}
+.LessonMenuLink:hover{
+    background-color: #666;
+    cursor: pointer;
+}
+
+/****************/
+/*Path-List code*/
+/****************/
+.Path-List{
+    color: #444;
+    direction: ltr;
+    background-color: #aaa;
+    overflow: auto;
+}
+.Path-List-Folder{
+    font-size: 25px;
+    list-style: none;
+    vertical-align: middle;
+    font-weight:bolder;
+    white-space: nowrap;
+}
+.Path-List-File{
+    font-size: 25px;
+    list-style: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.Path-List-image{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+/********************/
+/*Media Queries code*/
+/********************/
+
+@media only screen and (max-width: 749px) {  
+    .FlexBoxPane{
+        flex-direction: column;
+    }
+    .FlexBox{
+        height: 250px;
+        width: auto;
+    }
+    .FlexBoxName{
+        font-size: 30px;
+    }
+    .FlexBoxArtical{
+        font-size: 20px;
+    }
+    .headercontent{
+        max-width: auto;
+    }
+    .header{
+        z-index: 1000;
+        background-color: #222;
+        display:none;
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+    }
+    .headerLink{
+        display: none;
+    }
+    .mobileheader{
+        display: block;
+    }
+    .content{
+        max-width: 630px;
+    }
+    .MenuItem{
+        width: auto;
+        padding: 0px;
+    }
+    .MenuToggle{
+        color: #fff;
+        min-height: 50px;
+        padding: 0px;
+        padding-right: 20px;
+        font-size: 30px;
+        display: flex;
+    }
+    .Menu{
+        display: none;
+        background-color: #393939;
+        min-width: 300px;
+        font-size: 20px;
+    }
+    .MenuLink{
+        color: #fff;
+        padding-right: 30px;
+        padding-top: 10px;
+    }
+    .Title{
+        font-size: 30px;
+    }
+    .TitleArtical{
+        font-size: 20px;
+    }
+    .Artical{
+        font-size: 15px;
+    }
+    .InlineCode{
+        font-size: 12px;
+    }
+    .example-code{
+        font-size: 15px;
+    }
+    .example-title{
+        font-size: 25px;
+    }
+    .example-text{
+        font-size: 15px;
+    }
+    .Block1{
+        margin-left: 20px;
+    }
+    .Block2{
+        margin-left: 40px;
+    }
+    .Block3{
+        margin-left: 60px;
+    }
+    .Block4{
+        margin-left: 80px;
+    }
+    .table td,.table tr,.table th{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .SlideToggle{
+        height: 40px;
+    }
+    .ArrowDown{
+        width: 10px;
+        height: 10px;
+        margin-left: 2px;
+    }
+    .SlideTitle{
+        font-size: 20px;
+    }
+    .copyright{
+        font-size: 20px;
+    }
+} 
+@media only screen and (min-width: 750px) { 
+    .FlexBoxArtical{
+        font-size: 23px;
+    }
+    .headerPane{
+        max-height: 100px;
+    }
+    .headercontent{
+        padding-left: 20px;
+        padding-right: 20px;
+        max-height: 100px;
+    }
+    .header{    
+        display: flex;
+        max-height: 100px;
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .mobileheader{
+        display: none;
+    }
+    .MenuItem{
+        position: relative;
+        max-height: 100px;
+        padding: 25px;
+    }
+    .Menu{
+        z-index: 1000;
+        position: absolute;
+        margin-top: 25px;
+    }
+}
